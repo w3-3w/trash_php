@@ -1,0 +1,176 @@
+body {
+	font-family: 微软雅黑, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+.header {
+	width: 100%;
+	margin: 0;
+	height: 50px;
+	position: fixed;
+	background-color: #CCF;
+}
+
+.logo {
+	float: left;
+	margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.headermenu {
+	float: right;
+	margin-top: 11px;
+	text-align: right;
+	background-color: #FFF;
+	border: #FFF solid 5px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.headermenu li {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.welcome {
+	text-align: center;
+
+}
+
+.welcome h2 {
+	font-size: 30px;
+}
+
+.welcome p {
+	font-size: 18px;
+}
+
+.fakehead {
+	height: 40px;
+	position: static;
+	width: 100%;
+}
+
+.auth {
+	margin: 20px;
+}
+
+.authpanel {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.authform {
+	font-size: 14px;
+}
+
+.authhelp {
+	width: 30%;
+	float: right;
+	font-size: 12px;
+	padding-left: 10px;
+	border-left: 1px #999999 dashed;
+	min-height: 300px;
+	display: inline-block;
+}
+
+.button {
+	background-color: #2D5EB9;
+	color: #FFF;
+	text-align: center;
+	border: 2px #000 solid;
+	border-radius: 5px;
+	font-size: 18px;
+	max-width: 200px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.tweet_submit_panel {
+	margin: 20px;
+	margin-left: 50px;
+}
+
+.my_last_tweet {
+	float: left;
+	width: 345px;
+	font-size: 14px;
+	overflow-y: 45;
+	overflow: hidden;
+	height: 58px;
+}
+
+.tweet_home {
+	width: 80%;
+	margin: 20px;
+}
+
+.tweet_list {
+	width: 60%;
+	display: inline-block;
+	float: left;
+	border-right: 1px #999999 dashed;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.tweet_user_panel {
+	width: 30%;
+	font-size: 12px;
+	padding-left: 10px;
+	display: inline-block;
+	float: right;
+	margin-left: 0;
+}
+
+.tweet_frame {
+	
+}
+
+.tweet_delete_button {
+	display: inline-block;
+	float: right;
+	width: 10%;
+	height: 0px;
+	margin-right: 15px;
+}
+
+.tweet_item {
+	display: inline-block;
+	width: 95%;
+	float: left;
+}
+
+.tweet_item p {
+	margin: 0;
+}
+
+.tweet_item span {
+	padding-right: 10px;
+}
+
+.tweet_item .username {
+	font-weight: bold;
+	color: #06F;
+}
+
+.posttime {
+	color: #999;
+	font-size: 12px;
+}
+
+.user_stats {
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}

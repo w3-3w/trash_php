@@ -1,0 +1,10 @@
+<appwizard><introduction><name></name><author>cakephp2012</author><icon></icon><homepage></homepage><description><![CDATA[]]></description></introduction><platform><services> <service size="2M">Memcache</service><service>Mysql</service></services><appconfig><tpl><![CDATA[
+name: <<appname>>
+version: <<version>>
+version: 1
+handle:
+  - rewrite:if ( path ~ "^(?!app/webroot/)(.*)" ) goto "/app/webroot/$1?%{QUERY_STRING}"
+  - rewrite:if (!is_file() && !is_dir() && path ~ "^app/webroot/(.*)") goto "app/webroot/index.php?url=$1&%{QUERY_STRING}"
+
+
+]]></tpl></appconfig></platform><code><initScript>index.php</initScript></code></appwizard>

@@ -1,0 +1,66 @@
+2012-04-07 08:49:04 Error: [MissingTableException] Table cakeposts for model Post was not found in datasource default.
+#0 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(3398): Model->setSource('posts')
+#1 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(2653): Model->getDataSource()
+#2 D:\sae_loalhost\wwwroot\cakephp2012\1\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\sae_loalhost\wwwroot\cakephp2012\1\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 D:\sae_loalhost\wwwroot\cakephp2012\1\index.php(40): require('D:\sae_loalhost...')
+#9 {main}
+2012-04-07 08:49:15 Error: [MissingTableException] Table cakeposts for model Post was not found in datasource default.
+#0 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(3398): Model->setSource('posts')
+#1 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(2653): Model->getDataSource()
+#2 D:\sae_loalhost\wwwroot\cakephp2012\1\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\sae_loalhost\wwwroot\cakephp2012\1\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 D:\sae_loalhost\wwwroot\cakephp2012\1\index.php(40): require('D:\sae_loalhost...')
+#9 {main}
+2012-04-07 08:52:45 Error: [MissingTableException] Table cakeposts for model Post was not found in datasource default.
+#0 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(3398): Model->setSource('posts')
+#1 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(2653): Model->getDataSource()
+#2 D:\sae_loalhost\wwwroot\cakephp2012\1\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\sae_loalhost\wwwroot\cakephp2012\1\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 D:\sae_loalhost\wwwroot\cakephp2012\1\index.php(40): require('D:\sae_loalhost...')
+#9 {main}
+2012-04-07 08:52:46 Error: [MissingTableException] Table cakeposts for model Post was not found in datasource default.
+#0 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(3398): Model->setSource('posts')
+#1 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(2653): Model->getDataSource()
+#2 D:\sae_loalhost\wwwroot\cakephp2012\1\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\sae_loalhost\wwwroot\cakephp2012\1\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 D:\sae_loalhost\wwwroot\cakephp2012\1\index.php(40): require('D:\sae_loalhost...')
+#9 {main}
+2012-04-07 08:52:47 Error: [MissingTableException] Table cakeposts for model Post was not found in datasource default.
+#0 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(3398): Model->setSource('posts')
+#1 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(2653): Model->getDataSource()
+#2 D:\sae_loalhost\wwwroot\cakephp2012\1\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\sae_loalhost\wwwroot\cakephp2012\1\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 D:\sae_loalhost\wwwroot\cakephp2012\1\index.php(40): require('D:\sae_loalhost...')
+#9 {main}
+2012-04-07 08:52:48 Error: [MissingTableException] Table cakeposts for model Post was not found in datasource default.
+#0 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(3398): Model->setSource('posts')
+#1 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Model\Model.php(2653): Model->getDataSource()
+#2 D:\sae_loalhost\wwwroot\cakephp2012\1\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 D:\sae_loalhost\wwwroot\cakephp2012\1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\sae_loalhost\wwwroot\cakephp2012\1\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 D:\sae_loalhost\wwwroot\cakephp2012\1\index.php(40): require('D:\sae_loalhost...')
+#9 {main}

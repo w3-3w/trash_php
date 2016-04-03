@@ -1,0 +1,8 @@
+name: menushare
+version: 1
+handle:
+- errordoc: 404 /404.html
+- passwdaccess: if(path ~ "app") passwd "w3_3w:1l2k3j4h"
+- passwdaccess: if(path ~ "lib") passwd "w3_3w:1l2k3j4h"
+- passwdaccess: if(path ~ "plugins") passwd "w3_3w:1l2k3j4h"
+- passwdaccess: if(path ~ "vendors") passwd "w3_3w:1l2k3j4h"
